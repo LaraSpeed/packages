@@ -45,7 +45,7 @@ class CodeGeneratorServiceProvider extends ServiceProvider
         ], "assets");
 
         $this->publishes([
-            __DIR__ . '/assets/GeneratorCode.php' => app_path()
+            __DIR__ . '/assets/GeneratorCode.php' => app_path("/GeneratorCode.php")
         ], "code");
 
 
