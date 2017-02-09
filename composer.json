@@ -8,7 +8,7 @@
             "email": "seydouberthe100@gmaill.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "philo/laravel-blade": "^3.1"
     }
