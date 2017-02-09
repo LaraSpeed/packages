@@ -11,5 +11,11 @@
     "minimum-stability": "stable",
     "require": {
         "philo/laravel-blade": "^3.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Berthe\\Codegenerator\\": "src/"
+        }
     }
 }
